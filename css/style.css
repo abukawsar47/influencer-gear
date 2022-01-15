@@ -2,9 +2,11 @@
 ****Google Font***
 *****************/
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap');
+
 /*****************
 ****Common CSS****
 *****************/
+
 *{
     margin: 0;
     padding: 0;
@@ -48,10 +50,14 @@ a{
     border-radius: 30px;
     cursor: pointer;
 }
+
 /*****************
 ****Header Area***
 *****************/
 
+header {
+    margin-bottom: 100px;
+}
 .banner {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -105,6 +111,7 @@ a{
 /* ----------------------------- 
             animation
 ----------------------------- */
+
 .photo img{
     animation: MoveUpDown  1s ease-in-out infinite  alternate;
     animation-play-state: running;
@@ -122,6 +129,7 @@ a{
 /*****************************
 ****Popular Collection Area***
 *****************************/
+
 .popular-collections {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -182,9 +190,11 @@ a{
 .see-more a span{
     margin-left: 5px;
 }
+
 /*****************
 ****newsletter***
 *****************/
+
 .newsletter {
     background-image: url(../images/news.jpg);
     background-repeat: no-repeat;
@@ -219,6 +229,7 @@ a{
 /*****************
 ****Footer Area***
 *****************/
+
 .footer-area {
     padding: 50px 0;
     background-color: #0a0826;
@@ -227,7 +238,8 @@ a{
     color: #fff;
     text-align: center;
 }
-.footer-content h3, p{
+.footer-content h3,
+.footer-contentp {
     margin-bottom: 10px;
 }
 .footer-social i {
@@ -243,9 +255,11 @@ a{
 --------------------- */
 
 /***Mobile Devices***/
+
 @media only screen and (max-width: 688px) {
     header {
         text-align: center;
+        margin-bottom: 0;
     }
     section {
         margin: 50px 0;
@@ -291,7 +305,11 @@ a{
 /**************
 Tablet Devices
 ***************/
+
 @media only screen and (min-width: 688px) and (max-width: 992px) {
+    header{
+        margin-bottom: 0;
+    }
     .container{
         width: 100%;
     }
