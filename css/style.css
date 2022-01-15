@@ -266,7 +266,7 @@ a{
         margin: 0 auto;
     }
     .banner-photo {
-        margin-bottom: 30px;
+        margin-bottom: 15%;
     }
     .banner-photo img {
         width: 100%;
@@ -282,6 +282,42 @@ a{
     }
     .newsletter-inner h1 {
         font-size: 40px;
+    }
+    .newsletter-box .subscribe {
+        width: 90%;
+    }
+}
+
+/**************
+Tablet Devices
+***************/
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    section {
+        margin: 70px 0;
+    }
+    .banner {
+        grid-template-columns: 1fr;
+    }
+    .banner-content {
+        order: 2;
+    }
+    .banner-heading {
+        font-size: 40px;
+    }
+    .banner-photo {
+        align-items: center;
+    }
+    .banner-photo {
+        margin-bottom: 15%;
+    }
+    .popular-collections {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .newsletter-inner h1 {
+        font-size: 45px;
     }
     .newsletter-box .subscribe {
         width: 90%;
