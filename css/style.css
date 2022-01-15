@@ -300,6 +300,9 @@ header {
     .newsletter-box .subscribe {
         width: 90%;
     }
+    .newsletter-box .subscribe {
+        padding: 10px 10px 10px 20px;
+    }
 }
 
 /**************
